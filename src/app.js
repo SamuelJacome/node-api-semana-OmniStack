@@ -9,4 +9,6 @@ app.use(cors());
 app.use(express.json()) // Isso deve ser feito antes de todas as rotas(Configuração para )
 app.use(routes);
 app.use(errors());
-app.listen(3333);
+
+
+module.exports = app;
